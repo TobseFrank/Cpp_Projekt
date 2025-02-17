@@ -1,9 +1,18 @@
-#Main CMakeLists.txt
+# Main CMakeLists.txt
+
+# Minimum required CMake version
 cmake_minimum_required(VERSION 3.22)
 
+# Define the project
 project(
     CppProjectTemplate 
     VERSION 1.0.0
     LANGUAGES C CXX)
 
-add_executable(MyProgramName main.cpp)
+# Define variable names
+set(EXECUTABLE_NAME MyProgramName)
+set(LIBRARY_NAME Library)
+set(LIBRARY_NAME2 Library2)
+
+add_subdirectory(src)
+add_subdirectory(app)
