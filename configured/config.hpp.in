@@ -1,0 +1,7 @@
+#pragma once
+
+#include <cstdint>
+#include <string_view> 
+
+static const std::string_view PROJECT_NAME = "@PROJECT_NAME@";
+static const std::string_view PROJECT_VERSION = "@PROJECT_VERSION@";
