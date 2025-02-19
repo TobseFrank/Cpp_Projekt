@@ -11,6 +11,6 @@ target_include_directories(${EXECUTABLE_NAME} PUBLIC
 
 # Linking libraries to executables
 target_link_libraries(${EXECUTABLE_NAME} PUBLIC 
-    ${LIBRARY_NAME}
-    ${LIBRARY_NAME2}
-    ${LIBRARY_NAME3})
+    ${LIBRARY_CALCULATOR}
+    ${LIBRARY_PRINTER}
+    ${LIBRARY_SETTINGS})

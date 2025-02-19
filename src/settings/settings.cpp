@@ -1,10 +1,10 @@
 #include "settings.h"
 #include "config.hpp"
 
-std::string_view getProjectName(){
+std::string getProjectName(){
     return PROJECT_NAME;
 }
  
-std::string_view getProjectVersion(){
+std::string getProjectVersion(){
     return PROJECT_VERSION;
 }

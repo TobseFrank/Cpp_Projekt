@@ -1,6 +1,6 @@
 #pragma once
 
-#include <string_view>
+#include <string>
 
-std::string_view getProjectName();
-std::string_view getProjectVersion();
+std::string getProjectName();
+std::string getProjectVersion();

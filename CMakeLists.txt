@@ -16,9 +16,9 @@ set(CXX_EXTENSIONS OFF)
 
 # Define variable names
 set(EXECUTABLE_NAME MyProgramName)
-set(LIBRARY_NAME Library)
-set(LIBRARY_NAME2 Library2)
-set(LIBRARY_NAME3 Library3)
+set(LIBRARY_CALCULATOR library_calculator)
+set(LIBRARY_PRINTER library_printer)
+set(LIBRARY_SETTINGS library_settings)
 
 add_subdirectory(configured)
 add_subdirectory(src)

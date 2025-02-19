@@ -6,7 +6,7 @@ set(LIBRARY_INCLUDES
     "${CMAKE_BINARY_DIR}/configured_files/include")
 
 # Adding libraries
-add_library(${LIBRARY_NAME3} STATIC 
+add_library(${LIBRARY_SETTINGS} STATIC 
     ${LIBRARY_SOURCES})
-target_include_directories(${LIBRARY_NAME3} PUBLIC 
+target_include_directories(${LIBRARY_SETTINGS} PUBLIC 
     ${LIBRARY_INCLUDES})

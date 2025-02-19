@@ -5,7 +5,7 @@ set(LIBRARY_INCLUDES
     "./")
 
 # Adding libraries
-add_library(${LIBRARY_NAME2} STATIC 
+add_library(${LIBRARY_PRINTER} STATIC 
     ${LIBRARY_SOURCES})
-target_include_directories(${LIBRARY_NAME2} PUBLIC 
+target_include_directories(${LIBRARY_PRINTER} PUBLIC 
     ${LIBRARY_INCLUDES})
